@@ -71,7 +71,7 @@ FlexForm file.
 
    namespace Vendor\ExtKey\EventListener;
 
-   use TYPO3\CMS\Core\Core\Environment;
+   use TYPO3\CMS\Core\Configuration\Event\AfterFlexFormDataStructureParsedEvent;
    use TYPO3\CMS\Core\Utility\GeneralUtility;
 
    class ModifyFlexformEvent
